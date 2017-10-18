@@ -1,0 +1,119 @@
+/***** B A S E   S T Y L E S *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** G R I D *****/
+.full-width {
+/***    width: 1200px; ***/
+    width: 100%;
+    margin: auto; 
+}
+.half-width {
+/***    width: 600px; ***/
+    width: 50%;
+    margin: auto; 
+    float: left;
+}
+.third-width {
+/***    width: 367px;  ***/
+    width: 30%;
+    margin: auto; 
+    float: left;
+    height: 175px;  
+    text-align: left;
+    padding: 18px;   
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;  
+    border-left: 1px solid lightgray;    
+}
+/***** HEADER Section *****/
+header .full-width {
+    height: 90px;
+}
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+header span {
+    color: #77a466;
+}
+header nav {
+    float: right; 
+    padding: 20px 0px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 14px;
+    color: #77a466; 
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+/***** WELCOME Section *****/
+#welcome img {
+    height: 294px;
+    width: 100%;
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+#welcome h2 {
+    font-size: 18px;
+    color: #77a466; 
+    text-transform: uppercase;
+    margin: 25px auto;
+}
+#welcome p {
+    font-size: 16px;
+}
+/***** MAIN CONTENT Section *****/
+#maincontent h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#maincontent p {
+    font-size: 16px;
+}
+#maincontent #todays-specials {
+    padding-left: 0;
+    border-left: none;
+}
+#maincontent #todays-specials ul {
+    padding-left: 0;
+    list-style: none;
+}
+#maincontent #todays-specials li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+#maincontent #todays-specials a {
+    color: #77a466;
+    text-decoration: none;
+}
+/***** FOOTER Section *****/
+footer h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+    clear: both;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Satisfy', cursive; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
